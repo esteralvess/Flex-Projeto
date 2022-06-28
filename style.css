@@ -16,7 +16,7 @@ ul li a{
 
 div img{
 	display: block;
-	width: 80%;
+	width: 76%;
 	margin: 45%;
 }
 
@@ -110,7 +110,7 @@ header .menu{
 }
 
 #quem-somos img{
-	min-width: 400px;
+	min-width: 450px;
 	margin: 10px;
 }
 
@@ -254,7 +254,7 @@ footer .f a{
 
 /* mobile - Iphone 6/7/8 */
 
-@media(max-width: 992px){
+@media(max-width: 1100px){
 
 	div img{
 		margin: auto;
@@ -275,7 +275,7 @@ footer .f a{
 
 	.apresentacao{
 		flex-direction: column-reverse;
-		height: 80vh;
+		height: 70vh;
 	}
 
 	.texto-apresentacao h1{
@@ -283,32 +283,45 @@ footer .f a{
 	}
 
 	.apresentacao .texto-apresentacao{
-		width: 100%;
+		width: 80%;
 	}
 
 	#quem-somos{
 		flex-direction: column-reverse;
-		width: 10px;
+		width: 20px;
 	}
 
 	#quem-somos img{
-
+		min-width: 300px;
 		margin: auto;
 	}
 
 	#quem-somos p{
+		margin: 25px;
+	}
+
+	#quem-somos h2{
 		margin: 20px;
 	}
 
+	#servicos h2{
+		font-size: 28px;
+	}
+	
 	.list-servicos{
 		flex-direction: column;
 	}
 
 	.item-servicos img{
-		width: 50%;
+		width: 30%;
 		margin: auto;
 	}
 
+	#planos h2{
+		font-size: 28px;
+		margin: 15px;
+	}
+	
 	.list-planos{
 		flex-direction: column;
 		align-items: flex-start;
@@ -316,9 +329,8 @@ footer .f a{
 	}
 
 	.list-planos .item-plano{
-		max-width: 90%;
+		width: 140%;
 		margin: auto;
-		width: 100%;
 		margin-bottom: 20px;
 	}
 
